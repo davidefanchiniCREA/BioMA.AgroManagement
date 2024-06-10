@@ -21,16 +21,16 @@ AgroManagement is a software component to implement management events in a simul
 ## AgroManagement
 
 * [The Rule-Impact approach](docs/doc/the_rule_impact_approach.md)
-* [What is a rule?](docs\doc\what_is_a_rule.md)
-* [What are states?](docs\doc\what_are_states.md)
-* [What is an impact?](docs\doc\what_is_an_impact.md)
+* [What is a rule?](docs/doc/what_is_a_rule.md)
+* [What are states?](docs/doc/what_are_states.md)
+* [What is an impact?](docs/doc/what_is_an_impact.md)
 
 ## Design and Use
 
 ### Design by contract
 
-* [Test of preconditions](docs\doc\test_of_preconditions.md)
-* [The VarInfo type](docs\doc\varinfo_type.md)
+* [Test of preconditions](docs/doc/test_of_preconditions.md)
+* [The VarInfo type](docs/doc/varinfo_type.md)
 
 ### Codedoc
 

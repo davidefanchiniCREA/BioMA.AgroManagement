@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AgroManagementConfig" attributeFormDefault="unqualified" xmlns:mstns="http://seamless.org/AgroManagementConfig.xsd" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AgroManagementConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ExternalAssemblies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Assembly">
+                <xs:complexType>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="AssemblyType" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="AssemblyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="impacts" />
+      <xs:enumeration value="rules" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

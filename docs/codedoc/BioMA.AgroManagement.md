@@ -27,6 +27,13 @@
 | class [StatesAgroManVarInfo](./CRA.AgroManagement/StatesAgroManVarInfo.md) | StatesRainDataVarInfo contains the attributes for each variable in the domain class StatesAgroMan. Attributes are valorized via the static constructor. The data-type VarInfo causes a dependency to the assembly CRA.Core.Preconditions.dll |
 | class [XmlIO](./CRA.AgroManagement/XmlIO.md) | Constants of the AgroManagement component |
 
+## CRA.AgroManagement.Rules namespace
+
+| public type | description |
+| --- | --- |
+| class [RuleDateEx](./CRA.AgroManagement.Rules/RuleDateEx.md) | Triggers event when a relative date and rotation year is reached. |
+| class [RuleIrrigatePAWex](./CRA.AgroManagement.Rules/RuleIrrigatePAWex.md) | Trigger irrigation within a range of date, for a maximum number of times, if plant available water gets below a given threshold in a soil layer of chosen depth, on a specific rotationYear |
+
 ## CRA.AgroManagement.Writers namespace
 
 | public type | description |
